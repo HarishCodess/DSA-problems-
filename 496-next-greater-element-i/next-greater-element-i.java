@@ -6,7 +6,7 @@ class Solution {
         Stack<Integer> s = new Stack<>();
         HashMap<Integer, Integer> map = new HashMap<>();
 
-        // Find next greater element for nums2
+        
         for (int i = nums2.length - 1; i >= 0; i--) {
 
             while (!s.isEmpty() && s.peek() <= nums2[i]) {
